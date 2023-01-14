@@ -4,6 +4,9 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
 background: #000;
 color: #fff;
@@ -326,6 +329,11 @@ form btn2{
 .copyright i{
     color: #D10000;
 }
+#msg{
+    color: #D10000;
+    margin-top: -40px;
+    display: block;
+}
 /*--------------------Resoponsive-Css---------------------*/
 nav .fas{
 display: none;
@@ -382,5 +390,15 @@ display: none;
     }
     .about-col-2{
         font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left , .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        14px
     }
 }
